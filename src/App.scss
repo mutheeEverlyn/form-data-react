@@ -1,0 +1,57 @@
+#root {
+  // max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.container{
+  width: 50%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px;
+ background: white;
+ border-top: 10px solid blue;
+ .header{
+  text-align: center;
+ }
+  .name,.email,.password {
+     margin: 20px;
+     font-weight: bold;
+     color: black;
+  }
+   input{
+    background: lightblue;
+    font-weight: bold;
+   border: 2px solid grey;
+   border-radius: 5px;
+   padding: 10px;
+   width:100%;
+   }
+   button{
+    width: 100%;
+    margin: 15px;
+   }
+   .button button{
+   border: none;
+    color: white;
+    background: blue;
+   }
+   .login{
+    margin: 20px;
+   }
+}
+@media (max-width: 700px){
+  body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .container{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .name,.email,.password,button{
+    width: 80%;
+  }
+  
+}
