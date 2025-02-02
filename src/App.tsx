@@ -1,12 +1,8 @@
-import { useState } from 'react'
+
 
 import './App.scss'
 
 function App() {
-  const [submit, setSubmit] = useState(0)
-const Submit=()=>{
-  alert('hello {name} you are now registered');
-}
   return (
     <div className='container'>
       <div className='header'>
@@ -25,7 +21,7 @@ const Submit=()=>{
       <input type='password' placeholder='**********'  required/>
       </div>
        <div className='button'>
-       <button type='submit'onClick={Submit}>submit</button>
+       <button type='submit'>submit</button>
        </div>
         <div className='login'>
         <h3>Already Registered ? <a href='#' target='_blank'>login</a></h3>
